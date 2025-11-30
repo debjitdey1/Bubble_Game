@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "gilroy", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #1d7680;
+}
+
+#panel {
+  overflow: hidden;
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+#ptop {
+  padding: 0px 25%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 100px;
+  width: 100%;
+  background-color: #00d8ef;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.elem h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.box {
+  color: #06282a;
+  font-size: 25px;
+  font-weight: bold;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+#pbtm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+  padding: 30px;
+  height: calc(100% - 100px);
+}
+
+.bubble {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ebe72d;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.bubble:hover {
+  background-color: #fffb00;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
