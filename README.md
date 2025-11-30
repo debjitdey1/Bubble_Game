@@ -16,7 +16,7 @@ To play the game locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-  git clone https://github.com/your-username/Bubble_game.git
+[  git clone https://github.com/your-username/Bubble_game.git](https://github.com/debjitdey1/Bubble_Game.git)
   
 2. Open the index.html file in your web browser
 
